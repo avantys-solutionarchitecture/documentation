@@ -53,27 +53,27 @@
     <element xsi:type="archimate:ApplicationService" name="AcceptStudentService" id="e2739524-3fa8-4bda-8ed8-4fe5770b2580"/>
     <element xsi:type="archimate:ApplicationService" name="Accounting Service" id="b2b83887-d475-4b6b-b943-150fe52bddfa"/>
     <element xsi:type="archimate:ApplicationService" name="Study Service" id="7eee4328-05cb-42dd-b683-a38800e9ddf0"/>
-    <element xsi:type="archimate:ApplicationService" name="Group Service" id="54d5fe01-bb0c-4873-ba66-2dfbb41340f4"/>
+    <element xsi:type="archimate:ApplicationService" name="Student Administration Service" id="54d5fe01-bb0c-4873-ba66-2dfbb41340f4"/>
     <element xsi:type="archimate:ApplicationService" name="Scheduling Service" id="03a5539e-9ae2-45e0-8156-777a6b3046ff"/>
     <element xsi:type="archimate:ApplicationService" name="CoupleClassToLectureService" id="62105670-4dd2-4d3b-ac66-b663eb8719ad"/>
-    <element xsi:type="archimate:ApplicationService" name="Student Portal" id="1cd3250a-ce8b-49b1-943f-c34c07e12319"/>
+    <element xsi:type="archimate:ApplicationService" name="Student Portal Service" id="1cd3250a-ce8b-49b1-943f-c34c07e12319"/>
     <element xsi:type="archimate:ApplicationService" name="Test Service" id="d3f3896e-abab-4496-b788-982947cde34e"/>
-    <element xsi:type="archimate:ApplicationService" name="Grade Service" id="38ded911-c7fd-4726-8674-d4af587a642b"/>
+    <element xsi:type="archimate:ApplicationService" name="Evaluating Students Service" id="38ded911-c7fd-4726-8674-d4af587a642b"/>
     <element xsi:type="archimate:ApplicationService" name="MakeTestResultsAvailableService" id="022be019-6e1c-4f29-8d61-be2117846496"/>
     <element xsi:type="archimate:ApplicationService" name="Credit Service" id="4248fa25-9575-4d86-9c59-f8c3bf007bae"/>
     <element xsi:type="archimate:ApplicationService" name="InviteStudentToGuidanceTalkService" id="94333110-98e4-4f17-9238-e9d86d63ff21"/>
-    <element xsi:type="archimate:ApplicationService" name="Guiding Service" id="6d4c891d-09ec-4c5d-856e-1780085c4353"/>
+    <element xsi:type="archimate:ApplicationService" name="Guiding Students Service" id="6d4c891d-09ec-4c5d-856e-1780085c4353"/>
     <element xsi:type="archimate:ApplicationService" name="Meeting Service" id="ef2203b9-df9b-4119-b7b6-eff78905528b"/>
     <element xsi:type="archimate:ApplicationService" name="Nginx reverse proxy server" id="31db8df3-b8b2-46b5-b0ad-8715bf622fed"/>
     <element xsi:type="archimate:ApplicationService" name="RabbitMQ" id="4c3d6f35-623c-4915-895c-1db4d1004325"/>
     <element xsi:type="archimate:ApplicationService" name="Recruiting component" id="b9c95758-0d1b-4d2b-bae5-5bfc078f0f1b"/>
     <element xsi:type="archimate:ApplicationService" name="Docker" id="d2663083-3776-4df5-9b38-94e714ff925c"/>
-    <element xsi:type="archimate:ApplicationService" name="Student Administration" id="b85ae462-2a46-48d8-bebf-3c4a288f8a89"/>
-    <element xsi:type="archimate:ApplicationService" name="Accounting" id="579da163-145a-44b5-9fd9-4616b652ba84"/>
-    <element xsi:type="archimate:ApplicationService" name="Guiding Students" id="8bf868ed-a9cd-4e17-b767-e93679cda489"/>
-    <element xsi:type="archimate:ApplicationService" name="Evaluating Students" id="919c2dc9-aba3-4212-b3f1-85a0a2e82688"/>
-    <element xsi:type="archimate:ApplicationService" name="Student Portal" id="e24a4fa5-ff98-4923-88e6-bce85b415b02"/>
-    <element xsi:type="archimate:ApplicationService" name="Scheduling" id="f616258f-b078-496c-accd-d1fa0ac8ae1b"/>
+    <element xsi:type="archimate:ApplicationService" name="Student Administration component" id="b85ae462-2a46-48d8-bebf-3c4a288f8a89"/>
+    <element xsi:type="archimate:ApplicationService" name="Accounting component" id="579da163-145a-44b5-9fd9-4616b652ba84"/>
+    <element xsi:type="archimate:ApplicationService" name="Guiding Students component" id="8bf868ed-a9cd-4e17-b767-e93679cda489"/>
+    <element xsi:type="archimate:ApplicationService" name="Evaluating Students component" id="919c2dc9-aba3-4212-b3f1-85a0a2e82688"/>
+    <element xsi:type="archimate:ApplicationService" name="Student Portal component" id="e24a4fa5-ff98-4923-88e6-bce85b415b02"/>
+    <element xsi:type="archimate:ApplicationService" name="Scheduling component" id="f616258f-b078-496c-accd-d1fa0ac8ae1b"/>
     <element xsi:type="archimate:ApplicationService" name="Recruiting component (copy)" id="d60f07bb-628c-459d-a405-17b3c51c3474"/>
   </folder>
   <folder name="Technology &amp; Physical" id="fc6cb2d8-5de4-457a-a1b5-db6c241c9461" type="technology">
@@ -346,7 +346,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="97bee7e4-8c13-4e58-9424-2c7a940bbbcb" source="3faa9da3-4902-45bb-b497-1b8fe8aac367" target="4282a684-a177-47d7-80aa-eb5be181511c" archimateRelationship="7263b95d-54ad-44b4-813b-74db56493517"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="8ccd3977-d35c-4090-86f3-3cadcd066db9" targetConnections="1b230b25-ad7a-4605-addc-184360b8aa4b" archimateElement="b85ae462-2a46-48d8-bebf-3c4a288f8a89">
-          <bounds x="1656" y="60" width="120" height="55"/>
+          <bounds x="1656" y="60" width="180" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="7897ffb0-490a-44b7-b0a6-e24d1e488e0c" source="8ccd3977-d35c-4090-86f3-3cadcd066db9" target="88aa347b-6cc2-494e-9540-7dac8d56b456" archimateRelationship="779d6994-8b69-4523-b0ba-7a368fb34abb"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="b0dbef83-25cf-457b-8b55-ff8b85e2ed6a" targetConnections="029866af-07c1-46a7-aa51-ccca694b00b5" archimateElement="579da163-145a-44b5-9fd9-4616b652ba84">
